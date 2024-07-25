@@ -1,7 +1,9 @@
 
-# shotgun-csp
+# Shotgun CSP
 
-**shotgun-csp** is a Python package designed to solve the crystal structure prediction (CSP) problem using a non-iterative, single-shot screening framework. This method leverages a large library of virtually created crystal structures and employs a machine-learning energy predictor for efficient and accurate predictions.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/TsumiNa/ShutgunCSP)
+
+**Shotgun CSP** is a Python package designed to solve the crystal structure prediction (CSP) problem using a non-iterative, single-shot screening framework. This method leverages a large library of virtually created crystal structures and employs a machine-learning energy predictor for efficient and accurate predictions.
 
 ## Features
 
@@ -52,7 +54,7 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 
 ## Contributing
 
-We welcome contributions to improve **shotgun-csp**. Please fork the repository and submit your pull requests.
+We welcome contributions to improve **Shotgun CSP**. Please fork the repository and submit your pull requests.
 
 ## Acknowledgements
 
@@ -60,4 +62,4 @@ We would like to thank all contributors and the scientific community for their v
 
 ## Contact
 
-For any inquiries or issues, please open an issue on the [GitHub repository](https://github.com/yourusername/shotgun-csp) or contact us at your.email@example.com.
+For any inquiries or issues, please [open an issue](https://github.com/TsumiNa/ShutgunCSP/issues/new/choose).
