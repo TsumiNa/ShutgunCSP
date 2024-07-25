@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "shotgun-csp"
+version = "0.1.0-alpha"
+description = "Unleashing a revolutionary, single-shot, non-iterative framework that rapidly and efficiently cracks the crystal structure problem (CSP)."
+authors = ["TsumiNa <liu.chang.1865@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "shutgun_csp" }]
+include = ["pyproject.toml", "README.md", "LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+# xenonpy = "^0.6.7"
+pymatgen = "^2024.7.18"
+ase = "^3.23.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.1"
+Sphinx = "^7.4.7"
+
+[tool.ruff]
+exclude = [".venv", "venv", "__pycache__", ".git"]
+line-length = 88
+indent-width = 4
+src = ["xenonpy"]
+
+[tool.ruff.lint]
+# PEP8
+select = [
+    "F", # Pyflakes
+    "E", # pycodestyle
+    "W", # pycodestyle
+]
+ignore = [
+    "F841", # unused-variable
+    "E741", # ambiguous-variable-name
+    "W505", # doc-line-too-long
+]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint.mccabe]
+# C901
+max-complexity = 8
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
