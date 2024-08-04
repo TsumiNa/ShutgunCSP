@@ -34,5 +34,10 @@
     ],
     "cSpell.words": [
         "csp",
+        "DBSCAN",
+        "featurize",
+        "featurizers",
+        "joblib",
+        "matminer"
     ]
 }

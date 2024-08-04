@@ -39,14 +39,17 @@ pip install shotgun-csp
 Here is a simple example of how to use **shotgun-csp**:
 
 ```python
-import shotgun_csp
+from shotgun_csp.generator import TemplateSelector
+from shotgun_csp.io import VASPInputGenerator
 
 # Example usage
-results = shotgun_csp.run_prediction(input_data)
-print(results)
+selector = TemplateSelector()
+templates = selector.from(<pymatgen structures>, with='DBSCAN')
+
+vasp_inputs = VASPInputGenerator(templates)
 ```
 
-Please refer to the [documentation](https://yourdocumentationlink) for more detailed instructions and advanced usage.
+<!-- Please refer to the [documentation](https://yourdocumentationlink) for more detailed instructions and advanced usage. -->
 
 ## License
 
