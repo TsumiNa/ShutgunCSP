@@ -5,7 +5,7 @@ description = "Unleashing a revolutionary, single-shot, non-iterative framework 
 authors = ["TsumiNa <liu.chang.1865@gmail.com>"]
 license = "Apache-2.0"
 readme = "README.md"
-packages = [{ include = "shutgun_csp" }]
+packages = [{ include = "shotgun_csp" }]
 include = ["pyproject.toml", "README.md", "LICENSE"]
 
 [tool.poetry.dependencies]
